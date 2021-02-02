@@ -20,10 +20,10 @@ KEY = "o1zrmHAF"
 
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
-DOMAINS = {"huiyiu.com": {"@": ["CM","CU","CT"], "www": ["CM","CU","CT"]}}
+DOMAINS = {"qintian.club": {"@": ["CM","CU","CT"], "www": ["CM","CU","CT"]}}
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
-AFFECT_NUM = 2
+AFFECT_NUM = 4
 
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2
 DNS_SERVER = 1
