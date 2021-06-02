@@ -23,7 +23,7 @@ KEY = "o1zrmHAF"
 DOMAINS = {"llio.cc": {"pan": ["CM","CU","CT"]}}"huiyiw.xyz": {"@": ["CM","CU","CT"], "www": ["CM","CU","CT"]}}
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
-AFFECT_NUM = 4
+AFFECT_NUM = 2
 
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2
 DNS_SERVER = 1
