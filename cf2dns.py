@@ -20,7 +20,7 @@ KEY = "o1zrmHAF"
 
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
-DOMAINS = DOMAINS 需改域名信息，填写时注意不要有换行 例如：{"llio.cc": {"pan": ["CM","CU","CT"],"@": ["CM","CU","CT"]}}
+DOMAINS = DOMAINS 需改域名信息，填写时注意不要有换行 例如：{"llio.cc": {"pan": ["CM","CU","CT"], "@": ["CM","CU","CT"]}}
 
 #解析生效条数 免费的DNSPod相同线路最多支持2条解析
 AFFECT_NUM = 2
