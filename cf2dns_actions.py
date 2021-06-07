@@ -18,7 +18,7 @@ from dns.aliyun import AliApi
 KEY = os.environ["KEY"]  #"o1zrmHAF"
 #CM:移动 CU:联通 CT:电信
 #修改需要更改的dnspod域名核子域名
-DOMAINS = json.loads(os.environ["DOMAINS"])  #{"llio.cc": {"pan": ["CM","CU","CT"]}}
+DOMAINS = json.loads(os.environ["DOMAINS"])  #{"llio.cc": {"pan": ["CM","CU","CT"],"@": ["CM","CU","CT"]}}
 SECRETID = os.environ["SECRETID"]    #'AKIDV**********Hfo8CzfjgN'
 SECRETKEY = os.environ["SECRETKEY"]   #'ZrVs*************gqjOp1zVl'
 #默认为普通版本 不用修改
